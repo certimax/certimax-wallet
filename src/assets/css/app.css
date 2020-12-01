@@ -1,0 +1,94 @@
+/*.autocomplete-content .dropdown-content {
+    position: absolute;
+		width: 300px;
+}*/
+
+.logo{
+  align-items: center;
+  font-stretch: 100%;
+  font-weight: 400;
+  height: 48px;
+  padding-right: 32px;
+  vertical-align: middle;
+  position: relative;
+}
+
+.mainPic{
+  padding: 100px 0 0 100px;
+}
+
+.boton{
+  text-align: center;
+  text-rendering: auto;
+  display: block;
+  font-size: 14px;
+  font-stretch: 100%;
+  font-weight: 500;
+  line-height: 22px;
+  position: absolute;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.centrar{
+  text-align: center;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.menuItem{
+  font-weight: 500;
+  height: 26px;
+  line-height: 26px;
+}
+
+.navBar{
+  font-weight: 400;
+  font-size: 13px;
+  font-stretch: 100%;
+  padding: 8 8 8 8;
+  position: relative;
+  width: 1000px;
+  line-height: 27px;
+}
+
+.tabla{
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 40px;
+  max-width: 100%;
+  padding: 0 6 0 6;
+  text-align: left;
+  text-overflow: ellipsis;
+  width: 377px;
+  vertical-align: top;
+}
+
+.gestor{
+  text-align:left;
+}
+
+.error{
+  padding: 30px;
+  text-align:left;
+  width:1200px;
+}
+
+title{
+  font-size:18px;
+}
+
+.pendiente {
+  color:#D32F2F;
+}
+
+.dropdown-content {
+	margin: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	position: relative;
+}
