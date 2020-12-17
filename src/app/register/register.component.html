@@ -1,0 +1,65 @@
+  <link href="/assets/css/app.css" rel="stylesheet">
+  <link href="/assets/css/validaciones.css') }}" rel="stylesheet">
+ 
+  <div class="row"> 
+    <div class="col l4"></div>
+    <div class="col l5 s12 m12"><br>
+      <div class="card grey lighten-5">
+        <div class="card-content">
+          <div class="container"><br>
+            <div class="row">
+              <form class="col l12 m12 s12" name="form-usr" id="form-usr">
+                <h2>Crear Billetera</h2>
+                <div class="row">
+                  <div class="input-field col l11 m11 s11">
+                    <input id="usrName" name="name" method="post" type="text" class="validate">
+                    <label for="usrName">Nombre de la billetera</label>
+                    <!--p class="mensaje" id="mensaje-nombre">Este campo es obligatorio</p-->
+                  </div>
+                  <!--<div class="col l1 m1 s1">
+                    <i class="material-icons cancel" id="verificar-nombre">cancel</i> 
+                  </div-->
+                </div>
+                 
+                <div class="row">
+                  <div class="input-field col l11 m11 s11">
+                    <input id="password" name="password"  method="post" type="password" class="validate">
+                    <label for="password">Contrase&ntilde;a *</label>
+                    <!--p class="mensaje" id="mensaje-password">Este campo es obligatorio</p-->
+                  </div>
+                  <!--<div class="col l1 m1 s1">
+                    <i class="material-icons cancel" id="verificar-pass">cancel</i> 
+                  </div-->
+                </div>
+                
+                <div class="row"> 
+                  <div class="input-field col l11 m11 s11">
+                    <input id="confPasswd" name="password_confirmation"  method="post" type="password" class="validate">
+                    <label for="confPasswd">Confirmar contrase&ntilde;a *</label>
+                    <!--p class="mensaje" id="mensaje-conf-pass">Este campo es obligatorio</p-->
+                  </div>
+
+                  <!--<div class="col l1 m1 s1">
+                    <i class="material-icons cancel" id="verificar-conf-pass">cancel</i>
+                  </div-->
+                  <!--p>* Campos requeridos</p-->
+
+                </div>
+                <!--Add captcha-->
+                
+                <div class="row">
+                  <div class="col l6 m6 s6">
+                      <button class="waves-effect waves-blue btn" id="submit-usuario">Registrar</button>
+                  </div>
+                  <div class="col l6 m6 s6">
+                      <a class="waves-effect waves-blue btn" href="/gestorDatos">Cancelar</a>
+                  </div>
+                </div>
+
+              </form>
+            </div>
+          </div>      
+        </div>
+      </div>
+    </div>
+  </div>
